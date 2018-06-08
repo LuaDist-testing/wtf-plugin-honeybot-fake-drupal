@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "wtf-plugin-honeybot-fake-drupal"
-version = "0.4-1"
+version = "0.5-1"
 -- LuaDist source
 source = {
-  tag = "0.4-1",
+  tag = "0.5-1",
   url = "git://github.com/LuaDist-testing/wtf-plugin-honeybot-fake-drupal.git"
 }
 -- Original source
 -- source = {
 --    url = "git+https://github.com/honeybot/wtf-plugin-honeybot-fake-drupal",
---    tag = "0.4"
+--    tag = "0.5"
 -- }
 description = {
    homepage = "https://github.com/honeybot/wtf-plugin-honeybot-fake-drupal",
@@ -23,6 +23,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["wtf.plugins.honeybot.fake.drupal"] = "wtf/plugins/honeybot/fake/drupal/handler.lua"
+      ["wtf.plugins.honeybot.fake.drupal.handler"] = "wtf/plugins/honeybot/fake/drupal/handler.lua"
    }
 }
