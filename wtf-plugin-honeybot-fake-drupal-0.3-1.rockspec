@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "wtf-plugin-honeybot-fake-drupal"
 version = "0.3-1"
--- LuaDist source
 source = {
-  tag = "0.3-1",
-  url = "git://github.com/LuaDist-testing/wtf-plugin-honeybot-fake-drupal.git"
+   url = "git+https://github.com/honeybot/wtf-plugin-honeybot-fake-drupal",
+   tag = "0.3"
 }
--- Original source
--- source = {
---    url = "git+https://github.com/honeybot/wtf-plugin-honeybot-fake-drupal",
---    tag = "0.3"
--- }
 description = {
    homepage = "https://github.com/honeybot/wtf-plugin-honeybot-fake-drupal",
    license = "MIT"
